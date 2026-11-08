@@ -43,6 +43,9 @@ eval/
   cases.json         20 realistic test stories with expected laws
   run_retrieval_eval.py
 tests/               unit tests (contract, prompt rules, retrieval, grounding, transcription)
+scripts/
+  generate_raw_outputs.py   runs the app on the test inputs and saves results
+raw_outputs/         unedited outputs from a real run
 ```
 
 ## Setup
@@ -108,6 +111,14 @@ Current retrieval results (top 6):
 | Recall over all expected laws | 26 / 30 = 87% |
 
 One unit test makes the model "return" a made-up section and checks that it is removed, so the no-fake-laws rule is enforced in code.
+
+## Raw outputs
+
+`raw_outputs/` has unedited results from running the full app (real model) on my 20 test stories and 2 follow-up conversations. Each case file has the laws retrieved, the model's raw reply before the grounding check, and the final answer after it. See [raw_outputs/README.md](raw_outputs/README.md). To regenerate (needs `.env`):
+
+```bash
+python -m scripts.generate_raw_outputs
+```
 
 ## Known limitations
 
