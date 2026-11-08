@@ -1,0 +1,22 @@
+[
+  {"story": "Someone stole my phone from my bag while I was in a crowded local train in Mumbai yesterday.", "expected": ["bns-303", "bns-305"]},
+  {"story": "Two men on a bike pulled the gold chain from my mother's neck while she was walking and rode off.", "expected": ["bns-304"]},
+  {"story": "I got a call from someone saying he is from my bank, he asked for the OTP and then 45,000 rupees got debited from my account.", "expected": ["it-66d", "bns-319", "help-cyber"]},
+  {"story": "My ex keeps following me to college and messages me on Instagram from new accounts even after I blocked him.", "expected": ["bns-78"]},
+  {"story": "My husband and mother-in-law beat me and keep asking my parents for more money and a car since the wedding.", "expected": ["bns-85", "dpa-3-4"]},
+  {"story": "My neighbour slapped and punched me during an argument about parking. I have a bruise on my face.", "expected": ["bns-115"]},
+  {"story": "A man attacked my brother with an iron rod and he has a fractured arm, he is in hospital.", "expected": ["bns-117", "bns-118"]},
+  {"story": "Someone is threatening to kill me over phone calls if I don't withdraw my complaint.", "expected": ["bns-351"]},
+  {"story": "I paid an advance for a flat on rent to a person online, he sent fake documents and now his number is switched off.", "expected": ["bns-318", "bns-336"]},
+  {"story": "The police station is not filing my FIR and told me to go away. What can I do?", "expected": ["bnss-173-4", "bnss-175-3"]},
+  {"story": "I am scared I will be arrested in a false case my brother-in-law filed. Can I get protection?", "expected": ["bnss-478-482", "bnss-35"]},
+  {"story": "My boss at work keeps making sexual comments and asks me to come to his cabin alone.", "expected": ["bns-75"]},
+  {"story": "Someone hacked my WhatsApp and is asking my friends for money pretending to be me.", "expected": ["it-66c", "it-66d"]},
+  {"story": "A person is threatening to leak my private photos unless I pay him 20,000 rupees.", "expected": ["bns-308", "it-66e"]},
+  {"story": "I gave my business partner 5 lakh rupees to buy stock and he used it for himself and won't return it.", "expected": ["bns-316"]},
+  {"story": "A truck hit my father's scooter and drove away, my father died on the spot.", "expected": ["bns-106"]},
+  {"story": "Our school teacher touched my 10 year old daughter inappropriately.", "expected": ["pocso"]},
+  {"story": "Mera phone kisi ne chura liya bazaar mein, police complaint kaise karu?", "expected": ["bns-303"]},
+  {"story": "Some guy took my stuff and won't give it back.", "expected": ["bns-314", "bns-303"]},
+  {"story": "My landlord is not returning my security deposit after I vacated the flat.", "expected": [], "note": "civil dispute - ideally nothing criminal should be forced onto it"}
+]

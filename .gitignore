@@ -1,0 +1,21 @@
+# secrets - never commit real keys (use .env.example as the template)
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# editor / OS
+.vscode/
+.idea/
+.DS_Store
+
+# local outputs
+*.log
+scripts/__pycache__/
